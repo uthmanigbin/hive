@@ -9,8 +9,13 @@
 }
 
 .backBtnYellow {
-    margin-left: 16em;
+    margin-right: 32em;
     padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3em;
+    height: 3em;
     border: 2px solid black;
     background: none;
     border-radius: 8px;
@@ -18,10 +23,10 @@
 }
 
 .btnSubmitYellow {
-    padding: 1em;
+    padding: 0.5em;
     border: none;
     background: #FDAD35;
-    width: 18em;
+    width: 14em;
     border-radius: 8px;
     margin-bottom: 0.5em;
     color: white;
@@ -44,8 +49,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 3em;
-    margin-bottom: 10em;
+    margin-top: 2em;
+    margin-bottom: 3em;
 }
 
 .yellow {
@@ -59,13 +64,4 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 1em;
-}
-
-.question .gridContainer button {
-    width: 8em;
-    height: 3em;
-    background: none;
-    border: 1px solid gray;
-    border-radius: 12px;
-    font-size: small;
 }

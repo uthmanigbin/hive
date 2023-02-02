@@ -4,12 +4,17 @@
     text-align: right;
     margin: 0;
     padding: 0;
+    background-color: #FFF;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 5px;
 }
 
 .rightAlign {
     justify-content: end;
 }
 
-.ChatText:last-child {
-    padding-bottom: 4em;
+.buffer {
+    margin-bottom: 5em;
 }

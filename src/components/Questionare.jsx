@@ -10,7 +10,7 @@ class Questionare extends Component {
             <div className="Questionare">
                 <button className="backBtnYellow"><b>{"<"}</b></button>
                 <Question2 />
-                <button className="btnSubmitYellow">Continue</button>
+                <button className="btnSubmitYellow"><b>Continue</b></button>
             </div>
         )
     }

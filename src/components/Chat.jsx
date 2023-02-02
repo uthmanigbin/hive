@@ -6,7 +6,7 @@ import io from 'socket.io-client';
 import './Chat.css'
 
 const socket = io('ws://172.19.153.19:3010')
-const user_list = ['Alex', 'Steve']
+const user_list = ['Alex', 'Steve', 'Jobs', 'Henry', 'Suckma', 'Azee']
 user_list.sort((a, b) => 0.5 - Math.random());
 const username = user_list.pop()
 
@@ -52,7 +52,7 @@ class Chat extends Component {
 
     onMessageSend = (text) => {
         if (text !== "") {
-            let data_to_send = username + ": " + text
+            let data_to_send = username + ": " + text.replace(/ /g,'')
             socket.emit('send_text', data_to_send)
         }
     }
@@ -68,6 +68,7 @@ class Chat extends Component {
                         {this.state.list.map((i) =>
                             <ChatText text={i} />
                         )}
+                        <div className="buffer"></div>
                     </div>
                     <Chatbar onChatMessage={this.onMessageSend}/>
                 </div>
