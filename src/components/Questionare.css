@@ -1,0 +1,12 @@
+.btnYellow {
+    padding: 1em;
+    border: 1px solid black;
+    background: none;
+    width: 12em;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.btnYellow:hover {
+    background-color: #FDAD35;
+}

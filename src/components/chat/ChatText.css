@@ -1,0 +1,15 @@
+.ChatText {
+    display: flex;
+    width: 100%;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+.rightAlign {
+    justify-content: end;
+}
+
+.ChatText:last-child {
+    padding-bottom: 3em;
+}
