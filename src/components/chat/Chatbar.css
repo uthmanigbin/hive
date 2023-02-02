@@ -1,23 +1,36 @@
 .Chatbar {
     position: fixed;
+    left: 0;
     bottom: 0;
     width: 100%;
     display: flex;
+    background-color: #FDAD35;
 }
 
 .Chatbar form {
     width: 100%;
     display: flex;
+    background-color: #FDAD35;
 }
 
 .Chatbar .textField {
-    width: 100%;
+    width: 75%;
     height: 3em;
     border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 12.5px;
+    margin-top: 12.5px;
 }
 
 .Chatbar .btnSend {
-    width: 8em;
-    border: none;
-    background-color: cadetblue;
+    width: 4em;
+    border: 1px solid black;
+    background-color: #FFF;
+    border-radius: 25px;
+    margin-right: 25px;
+    margin-bottom: 12.5px;
+    margin-top: 12.5px
 }

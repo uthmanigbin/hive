@@ -1,14 +1,17 @@
 .container {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #FDAD35;
 }
 
 .chat {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: auto;
+    text-align: center;
 }
 
 .topbar {
@@ -22,6 +25,5 @@
     flex-direction: column;
     justify-content: start;
     align-items: flex-start;
-    padding: 0.5em;
     height: 100%;
 }

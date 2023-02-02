@@ -1,12 +1,71 @@
 .btnYellow {
     padding: 1em;
-    border: 1px solid black;
+    border: 2px solid black;
     background: none;
-    width: 12em;
+    width: 18em;
+    border-radius: 8px;
+    text-align: left;
+    margin-bottom: 0.5em;
+}
+
+.backBtnYellow {
+    margin-left: 16em;
+    padding: 1em;
+    border: 2px solid black;
+    background: none;
     border-radius: 8px;
     text-align: left;
 }
 
+.btnSubmitYellow {
+    padding: 1em;
+    border: none;
+    background: #FDAD35;
+    width: 18em;
+    border-radius: 8px;
+    margin-bottom: 0.5em;
+    color: white;
+}
+
+.backBtnYellow:hover {
+    background-color: #FDAD35;
+}
+
 .btnYellow:hover {
     background-color: #FDAD35;
+}
+
+.Questionare {
+    padding: 1em;
+}
+
+.question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3em;
+    margin-bottom: 10em;
+}
+
+.yellow {
+    font-size: xx-large;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    color: #FDAD35;
+}
+
+.question .gridContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em;
+}
+
+.question .gridContainer button {
+    width: 8em;
+    height: 3em;
+    background: none;
+    border: 1px solid gray;
+    border-radius: 12px;
+    font-size: small;
 }

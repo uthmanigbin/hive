@@ -19,6 +19,7 @@ class Chat extends Component {
         }
     }
     
+
     componentDidMount = () => {
         socket.on('connect', () => {
             console.log("socket is connected");
@@ -50,8 +51,10 @@ class Chat extends Component {
     }
 
     onMessageSend = (text) => {
-        let data_to_send = username + ": " + text
-        socket.emit('send_text', data_to_send)
+        if (text !== "") {
+            let data_to_send = username + ": " + text
+            socket.emit('send_text', data_to_send)
+        }
     }
 
     render() {
