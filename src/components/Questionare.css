@@ -56,7 +56,7 @@
 .yellow {
     font-size: xx-large;
     margin-top: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     color: #FDAD35;
 }
 
@@ -64,4 +64,18 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 1em;
+}
+
+.Preferences {
+    width: 99%;
+    margin: auto auto;
+}
+
+.yellowInputForm {
+    width: 20em;
+    height: 4em;
+    border-radius: 12px;
+    border: 1px solid gray;
+    padding: 1em;
+    margin-bottom: 3em;
 }

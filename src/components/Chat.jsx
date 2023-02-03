@@ -45,14 +45,15 @@ class Chat extends Component {
         this.setState({
             list: text_list
         }, () => {
+            console.log(this.state.list)
             const scrollingElement = (document.scrollingElement || document.body);
             scrollingElement.scrollTop = scrollingElement.scrollHeight;
         })
     }
 
     onMessageSend = (text) => {
-        if (text !== "") {
-            let data_to_send = username + ": " + text.replace(/ /g,'')
+        if (text.replace(/ /g,'') !== "") {
+            let data_to_send = username + ": " + text//.replace(/ /g,'')
             socket.emit('send_text', data_to_send)
         }
     }

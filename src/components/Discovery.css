@@ -1,0 +1,54 @@
+.contentBtn {
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    background-color: #7BA399;
+    color: white;
+    border: none;
+}
+
+.discovery .buttons {
+    display: flex;
+    position: fixed;
+    bottom: 8%;
+    left: 18%;
+    gap: 6em;
+}
+
+.discovery .userInfo {
+    text-align: left;
+    margin: 2em auto;
+    width: 22em;
+    height: 32em;
+    padding: 1.5em;
+    background-color: #FDAD45;
+    box-shadow: 0px 1px 12px black;
+    border-radius: 24px;
+}
+
+.userInfo .name {
+    position: fixed;
+    width: 22em;
+    left: 7.5%;
+    bottom: 16%;
+    border-radius: 0 0 24px 24px;
+    padding: 1em;
+    background-color: #000000;
+    color: white;
+}
+
+.userInfo .interests {
+    display: flex;
+    gap: 0.5em;
+}
+
+.userInfo .interests p {
+    font-weight: 400;
+    font-size: small;
+    background-color: whitesmoke;
+    border: 2px solid white;
+    padding: 0.5em;
+    text-align: center;
+    width: 10em;
+    border-radius: 8px;
+}

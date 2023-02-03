@@ -1,19 +1,23 @@
 .toggleButton__default {
-    width: 8em;
+    width: 10em;
     height: 3em;
+    text-align: left;
     background: none;
     border: 1px solid gray;
     border-radius: 12px;
-    font-size: small;
+    font-size: medium;
+    padding-left: 1em;
 }
 
 .toggleButton__toggled {
-    width: 8em;
+    width: 10em;
     height: 3em;
     background: #4A3630;
     color: white;
+    text-align: left;
     box-shadow: 2px 4px 6px #4A3630;
     border: none;
     border-radius: 12px;
-    font-size: small;
+    font-size: medium;
+    padding-left: 1em;
 }

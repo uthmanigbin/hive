@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCamera } from '@fortawesome/free-solid-svg-icons'
 import React, { Component } from "react";
 
 import './ToggleAbleButton.css'
@@ -30,7 +29,7 @@ class ToggleAbleButton extends Component {
 
     render() {
         return(
-            <button onClick={this.onToggleButton} className={this.state.class}> <FontAwesomeIcon icon={faCamera} />{this.props.text}</button>
+            <button onClick={this.onToggleButton} className={this.state.class}> <FontAwesomeIcon className="icon" icon={this.props.icon} />{" " + this.props.text}</button>
         )
     }
 }
