@@ -75,7 +75,7 @@ class AboutMe extends Component {
         return(
             <div className="Preferences">
                 <h2 className="yellow" style={{textAlign: "left"}}><b>My info</b></h2>
-                <h3 style={{marginRight: '8em', fontFamily: 'Tahoma'}}>Accomontation</h3>
+                <h3 style={{marginRight: '8em', fontFamily: 'Tahoma'}}>Accommodation</h3>
                 <FormControl sx={{ m: 1, minWidth: 120 }}>
                     <Select
                     value={this.state.location}
@@ -98,9 +98,9 @@ class AboutMe extends Component {
                     input={<StyledMultipleSelect />}
                     >
                     <MenuItem value={10}>Taltech</MenuItem>
-                    <MenuItem value={20}>Voco</MenuItem>
-                    <MenuItem value={30}>Tartu University</MenuItem>
-                    <MenuItem value={40}>Code Jõhvi</MenuItem>
+                    <MenuItem value={20}>Tartu Vocational Education Centre</MenuItem>
+                    <MenuItem value={30}>University of Tartu</MenuItem>
+                    <MenuItem value={40}>Kood / Jõhvi</MenuItem>
                     </Select>
                 </FormControl>
                 <h3 style={{marginRight: '12em', fontFamily: 'Tahoma'}}>Major</h3>
@@ -111,10 +111,10 @@ class AboutMe extends Component {
                     inputProps={{ 'aria-label': 'Without label' }}
                     input={<StyledMultipleSelect />}
                     >
-                    <MenuItem value={10}>Crossmedia</MenuItem>
-                    <MenuItem value={20}>IT development</MenuItem>
-                    <MenuItem value={30}>Standard Marketing</MenuItem>
-                    <MenuItem value={40}>Java Based Software Developer</MenuItem>
+                    <MenuItem value={10}>Engineering</MenuItem>
+                    <MenuItem value={20}>Computer Science</MenuItem>
+                    <MenuItem value={30}>Business Administration</MenuItem>
+                    <MenuItem value={40}>Literature</MenuItem>
                     </Select>
                 </FormControl>
                 <h3 style={{marginRight: '12em', fontFamily: 'Tahoma'}}>Other</h3>

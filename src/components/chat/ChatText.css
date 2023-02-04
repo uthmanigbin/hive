@@ -1,7 +1,7 @@
 .ChatText {
     display: flex;
     width: 100%;
-    text-align: right;
+    text-align: left;
     margin: 0;
     padding: 0;
     background-color: #FFF;
@@ -9,6 +9,8 @@
     border-radius: 10px;
     margin-top: 5px;
     padding: 5px;
+    height: auto;
+    overflow: hidden;
 }
 
 .rightAlign {

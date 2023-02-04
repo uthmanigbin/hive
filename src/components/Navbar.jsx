@@ -14,11 +14,15 @@ class Navbar extends Component {
         return (
             <div className="Navbar">
                 <ul>
-                    <li><GiCardExchange /></li>
+                    <Link to={"/"}>
+                        <li><GiCardExchange /></li>
+                    </Link>
                     <Link to={"/chat"}>
                         <li><BsFillChatFill /></li>
                     </Link>
-                    <li><BsFillPersonFill /></li>
+                    <Link to={"/profile"}>
+                        <li><BsFillPersonFill /></li>
+                    </Link>
                 </ul>
             </div>
         )

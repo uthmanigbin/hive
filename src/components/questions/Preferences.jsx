@@ -142,13 +142,13 @@ class Preferences extends Component {
                     <Typography style={{textAlign: 'left', fontSize: 'large'}}><b>Age</b></Typography>
                     <Typography style={{marginLeft: '0.5em', alignSelf: 'end'}}>17 - 32</Typography>
                 </div>
-                <DarkOrangeSlider getAriaLabel={(index) => (index === 0 ? 17 : 32)} defaultValue={[20, 30]}/>
+                <DarkOrangeSlider valueLabelDisplay="auto" min={17} max={32} getAriaLabel={(index) => (index === 0 ? 17 : 32)} defaultValue={[20, 30]}/>
                 
                 <div style={{display: 'flex',  marginTop: "2em", width: '100%'}}>
                     <Typography style={{textAlign: 'left', fontSize: 'large'}}><b>Budget</b></Typography>
                     <Typography style={{marginLeft: '0.5em', alignSelf: 'end'}}>100 - 500 €</Typography>
                 </div>
-                <DarkOrangeSlider getAriaLabel={(index) => (index === 0 ? 100 : 500)} defaultValue={[10, 50]} />
+                <DarkOrangeSlider valueLabelDisplay="auto" min={100} max={500} getAriaLabel={(index) => (index === 0 ? 100 : 500)} defaultValue={[250, 400]} />
 
                 <h4 style={{marginRight: '6em',marginTop: '1em', fontFamily: 'Tahoma'}}>I'm Okay with</h4>
                 <StyledToggleButtonGroup
